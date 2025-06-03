@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv
 
 # Always reload from .env file, overriding existing environment variables
-load_dotenv(override=True)
+load_dotenv(override=False)
 
 # Print environment variables for debugging
 print("Config: Loaded environment variables:")
